@@ -151,14 +151,14 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-count">7</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">3</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -243,12 +243,111 @@
     </header>
   </article>
 
+  <article itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+      <div class="post-meta-container">
+        <time itemprop="dateCreated"
+              datetime="2021-08-11T00:00:00+08:00"
+              content="2021-08-11">
+          08-11
+        </time>
+      </div>
+
+      <div class="post-title">
+          <a class="post-title-link" href="/2021/about/%E9%81%87/" itemprop="url">
+            <span itemprop="name">Meet</span>
+          </a>
+      </div>
+
+      
+    </header>
+  </article>
+
+  <article itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+      <div class="post-meta-container">
+        <time itemprop="dateCreated"
+              datetime="2021-07-21T23:59:00+08:00"
+              content="2021-07-21">
+          07-21
+        </time>
+      </div>
+
+      <div class="post-title">
+          <a class="post-title-link" href="/2021/about/%E6%B7%B1%E5%A4%9C%E5%90%AC%E9%97%BB%E6%9F%90%E5%9C%B0%E6%B4%AA%E7%81%BE%E6%9C%89%E6%84%9F/" itemprop="url">
+            <span itemprop="name">深夜有感</span>
+          </a>
+      </div>
+
+      
+    </header>
+  </article>
+
+  <article itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+      <div class="post-meta-container">
+        <time itemprop="dateCreated"
+              datetime="2021-05-22T16:00:00+08:00"
+              content="2021-05-22">
+          05-22
+        </time>
+      </div>
+
+      <div class="post-title">
+          <a class="post-title-link" href="/2021/about/%E6%97%B6%E9%97%B4%E4%B8%8D%E7%AD%89%E4%BA%BA%EF%BC%8C%E6%88%91%E4%BB%AC%E5%9C%A8%E8%80%81%E5%8E%BB/" itemprop="url">
+            <span itemprop="name">2020春日闲谈</span>
+          </a>
+      </div>
+
+      
+    </header>
+  </article>
+
     </div>
   </div>
   
   
   
-<script src="/js/comments.js"></script>
+
+
+
+<div id="gitment_title" class="gitment_title"></div>
+<div id="container" style="display:none"></div>
+<link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
+<script src="https://jjeejj.github.io/js/gitment.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script>
+  const myTheme = {
+    render(state, instance) {
+      const container = document.createElement('div');
+      container.lang = "en-US";
+      container.className = 'gitment-container gitment-root-container';
+      container.appendChild(instance.renderHeader(state, instance));
+      container.appendChild(instance.renderEditor(state, instance));
+      container.appendChild(instance.renderComments(state, instance));
+      container.appendChild(instance.renderFooter(state, instance));
+      return container;
+    }
+  }
+ 
+  function showGitment() {
+    $("#gitment_title").attr("style", "display:none");
+    $("#container").attr("style", "").addClass("gitment_container");
+    var gitment = new Gitment({
+      id: decodeURI(window.location.pathname),
+      theme: myTheme,
+      owner: 'xuanlvcl',
+      repo: 'xuanlvcl.github.io',
+      oauth: {
+        client_id: 'b9d6135fc111c6973def',
+        client_secret: '737f7a68cd0f7c0106af4908c9f932b296b52a3b'
+      }
+    });
+    gitment.render('container');
+  }
+ 
+  showGitment();
+</script><script src="/js/comments.js"></script>
 </div>
   </main>
 
@@ -269,13 +368,13 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="站点总字数">0k</span>
+    <span title="站点总字数">4k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">1 分钟</span>
+    <span title="站点阅读时长">3 分钟</span>
   </span>
 </div>
 

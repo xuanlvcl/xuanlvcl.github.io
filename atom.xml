@@ -6,7 +6,7 @@
   <link href="https://xzpower.pro/atom.xml" rel="self"/>
   
   <link href="https://xzpower.pro/"/>
-  <updated>2022-02-19T16:34:51.147Z</updated>
+  <updated>2022-09-15T08:42:46.984Z</updated>
   <id>https://xzpower.pro/</id>
   
   <author>
@@ -15,6 +15,22 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Read</title>
+    <link href="https://xzpower.pro/2021/%E9%98%85%E8%AF%BB/"/>
+    <id>https://xzpower.pro/2021/%E9%98%85%E8%AF%BB/</id>
+    <published>2021-12-03T16:00:00.000Z</published>
+    <updated>2022-09-15T08:42:46.984Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;阅读&quot;&gt;&lt;a href=&quot;#阅读&quot; class=&quot;headerlink&quot; title=&quot;阅读&quot;&gt;&lt;/a&gt;阅读&lt;/h1&gt;&lt;p&gt;哈哈。感觉很有意思的一件事。我现在正在写自传，是最近很着急需要的材料。写的时候没想太多，很套路，总分总，先介绍自己，再介绍父母家人，再根据时间顺序讲从小学初中再到高中大学。&lt;/p&gt;
+&lt;p&gt;直到我找材料时看到的一篇文章。现在回忆起来，我大概有2年没看过正经的文学书了吧，曾经高中那么痴迷。回头想想，这确实是挺令人警醒的一件事情。虽然可能过会我就会忘记吧。希望寒假时的我能看到我写的这则短文，并且放下那些越写越无聊的网文，回头看看我曾经喜欢的好书。&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Attention</title>
@@ -36,6 +52,44 @@
     
     
     <category term="about" scheme="https://xzpower.pro/tags/about/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Meet</title>
+    <link href="https://xzpower.pro/2021/about/%E9%81%87/"/>
+    <id>https://xzpower.pro/2021/about/%E9%81%87/</id>
+    <published>2021-08-10T16:00:00.000Z</published>
+    <updated>2022-09-15T08:42:23.293Z</updated>
+    
+    
+    <summary type="html">此文章或许需要输入密码查看.</summary>
+    
+    
+    
+    
+    <category term="about" scheme="https://xzpower.pro/tags/about/"/>
+    
+    <category term="encrypt" scheme="https://xzpower.pro/tags/encrypt/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>深夜有感</title>
+    <link href="https://xzpower.pro/2021/about/%E6%B7%B1%E5%A4%9C%E5%90%AC%E9%97%BB%E6%9F%90%E5%9C%B0%E6%B4%AA%E7%81%BE%E6%9C%89%E6%84%9F/"/>
+    <id>https://xzpower.pro/2021/about/%E6%B7%B1%E5%A4%9C%E5%90%AC%E9%97%BB%E6%9F%90%E5%9C%B0%E6%B4%AA%E7%81%BE%E6%9C%89%E6%84%9F/</id>
+    <published>2021-07-21T15:59:00.000Z</published>
+    <updated>2022-09-15T08:41:16.896Z</updated>
+    
+    
+    <summary type="html">此文章或许需要输入密码查看.</summary>
+    
+    
+    
+    
+    <category term="about" scheme="https://xzpower.pro/tags/about/"/>
+    
+    <category term="encrypt" scheme="https://xzpower.pro/tags/encrypt/"/>
     
   </entry>
   
@@ -63,11 +117,30 @@
   </entry>
   
   <entry>
+    <title>2020春日闲谈</title>
+    <link href="https://xzpower.pro/2021/about/%E6%97%B6%E9%97%B4%E4%B8%8D%E7%AD%89%E4%BA%BA%EF%BC%8C%E6%88%91%E4%BB%AC%E5%9C%A8%E8%80%81%E5%8E%BB/"/>
+    <id>https://xzpower.pro/2021/about/%E6%97%B6%E9%97%B4%E4%B8%8D%E7%AD%89%E4%BA%BA%EF%BC%8C%E6%88%91%E4%BB%AC%E5%9C%A8%E8%80%81%E5%8E%BB/</id>
+    <published>2021-05-22T08:00:00.000Z</published>
+    <updated>2022-09-15T08:41:57.811Z</updated>
+    
+    
+    <summary type="html">此文章或许需要输入密码查看.</summary>
+    
+    
+    
+    
+    <category term="about" scheme="https://xzpower.pro/tags/about/"/>
+    
+    <category term="encrypt" scheme="https://xzpower.pro/tags/encrypt/"/>
+    
+  </entry>
+  
+  <entry>
     <title>An apple</title>
     <link href="https://xzpower.pro/2021/I%20put%20here%20an%20apple/"/>
     <id>https://xzpower.pro/2021/I%20put%20here%20an%20apple/</id>
     <published>2021-04-29T12:28:48.729Z</published>
-    <updated>2022-09-15T08:09:23.014Z</updated>
+    <updated>2022-01-12T07:47:41.977Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;I-put-here-an-apple&quot;&gt;&lt;a href=&quot;#I-put-here-an-apple&quot; class=&quot;headerlink&quot; title=&quot;I put here an apple&quot;&gt;&lt;/a&gt;I put here an apple&lt;/h1&gt;&lt;p&gt;It’s nothing here.&lt;/p&gt;

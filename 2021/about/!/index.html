@@ -154,14 +154,14 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-count">7</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">3</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -302,11 +302,14 @@
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/2021/%E6%97%A0%E9%A2%98/" rel="prev" title="My plan">
-                  <i class="fa fa-chevron-left"></i> My plan
+                <a href="/2021/about/%E9%81%87/" rel="prev" title="Meet">
+                  <i class="fa fa-chevron-left"></i> Meet
                 </a>
             </div>
             <div class="post-nav-item">
+                <a href="/2021/%E9%98%85%E8%AF%BB/" rel="next" title="Read">
+                  Read <i class="fa fa-chevron-right"></i>
+                </a>
             </div>
           </div>
     </footer>
@@ -317,7 +320,46 @@
 
 
 
-<script src="/js/comments.js"></script>
+
+
+
+<div id="gitment_title" class="gitment_title"></div>
+<div id="container" style="display:none"></div>
+<link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
+<script src="https://jjeejj.github.io/js/gitment.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script>
+  const myTheme = {
+    render(state, instance) {
+      const container = document.createElement('div');
+      container.lang = "en-US";
+      container.className = 'gitment-container gitment-root-container';
+      container.appendChild(instance.renderHeader(state, instance));
+      container.appendChild(instance.renderEditor(state, instance));
+      container.appendChild(instance.renderComments(state, instance));
+      container.appendChild(instance.renderFooter(state, instance));
+      return container;
+    }
+  }
+ 
+  function showGitment() {
+    $("#gitment_title").attr("style", "display:none");
+    $("#container").attr("style", "").addClass("gitment_container");
+    var gitment = new Gitment({
+      id: decodeURI(window.location.pathname),
+      theme: myTheme,
+      owner: 'xuanlvcl',
+      repo: 'xuanlvcl.github.io',
+      oauth: {
+        client_id: 'b9d6135fc111c6973def',
+        client_secret: '737f7a68cd0f7c0106af4908c9f932b296b52a3b'
+      }
+    });
+    gitment.render('container');
+  }
+ 
+  showGitment();
+</script><script src="/js/comments.js"></script>
 </div>
   </main>
 
@@ -338,13 +380,13 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="站点总字数">0k</span>
+    <span title="站点总字数">4k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">1 分钟</span>
+    <span title="站点阅读时长">3 分钟</span>
   </span>
 </div>
 
