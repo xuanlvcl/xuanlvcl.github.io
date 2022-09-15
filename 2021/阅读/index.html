@@ -390,6 +390,11 @@
 
 <script class="next-config" data-name="waline" type="application/json">{&quot;lang&quot;:&quot;zh-cn&quot;,&quot;enable&quot;:true,&quot;serverURL&quot;:&quot;waline-server-xuanlvcl.vercel.app&quot;,&quot;cssUrl&quot;:&quot;https:&#x2F;&#x2F;unpkg.com&#x2F;@waline&#x2F;client@v2&#x2F;dist&#x2F;waline.css&quot;,&quot;commentCount&quot;:true,&quot;pageview&quot;:false,&quot;placeholder&quot;:&quot;发个评论呗~&quot;,&quot;avatar&quot;:&quot;mm&quot;,&quot;meta&quot;:[&quot;nick&quot;,&quot;mail&quot;,&quot;link&quot;],&quot;pageSize&quot;:5,&quot;visitor&quot;:false,&quot;comment_count&quot;:true,&quot;requiredFields&quot;:[],&quot;libUrl&quot;:&quot;&#x2F;&#x2F;unpkg.com&#x2F;@waline&#x2F;client@v2&#x2F;dist&#x2F;waline.js&quot;,&quot;el&quot;:&quot;#waline&quot;,&quot;comment&quot;:true,&quot;path&quot;:&quot;&#x2F;2021&#x2F;%E9%98%85%E8%AF%BB&#x2F;&quot;}</script>
 <link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css">
+<style>
+:root {
+  --waline-theme-color:#555;
+}
+</style>
 <script>
 document.addEventListener('page:loaded', () => {
   NexT.utils.loadComments(CONFIG.waline.el).then(() =>
@@ -399,6 +404,7 @@ document.addEventListener('page:loaded', () => {
   );
 });
 </script>
+
 
  
 
